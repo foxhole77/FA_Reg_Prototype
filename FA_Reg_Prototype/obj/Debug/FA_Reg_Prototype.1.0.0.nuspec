@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FA_Reg_Prototype</id>
+    <version>1.0.0</version>
+    <authors>FA_Reg_Prototype</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0-windows7.0">
+        <dependency id="AForge.Video.DirectShow" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="SoftUni.Wintellect.PowerCollections" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="ZXing.Net" version="0.16.10" exclude="Build,Analyzers" />
+        <dependency id="ZXing.Net.Bindings.Windows.Compatibility" version="0.16.13" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\kryst\source\repos\FA_Reg_Prototype\bin\Debug\net9.0-windows\FA_Reg_Prototype.runtimeconfig.json" target="lib\net9.0-windows7.0\FA_Reg_Prototype.runtimeconfig.json" />
+    <file src="C:\Users\kryst\source\repos\FA_Reg_Prototype\bin\Debug\net9.0-windows\FA_Reg_Prototype.dll" target="lib\net9.0-windows7.0\FA_Reg_Prototype.dll" />
+  </files>
+</package>
